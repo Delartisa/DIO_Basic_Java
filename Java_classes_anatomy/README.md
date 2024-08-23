@@ -135,3 +135,40 @@ nomeUm.equals(nomeDois)
 
 && - Operador lógico "E"
 || - Operador lógico "OU"
+
+# Métodos
+
+Bloco de código que contém uma série de instruções.
+
+Sintaxe:
+
+public OR private (irá aparecer em todo sistema | não aparecerá para outras classes) <tipo_do_metodo> acaoDoMetodo (<tipoDoParametro> parâmetros){
+    // lógica - finalidade do método
+    return...;
+}
+
+OBS: No tipo do método, podemos usar "void" caso não haja o uso do return.
+
+OBS2: Caso exista uma exceção no método, use throws Exception antes das chaves, como no exemplo:
+
+public (irá aparecer em todo sistema) <tipo_do_metodo> acaoDoMetodo (<tipoDoParametro> parâmetros) throws Exception{
+    // lógica - finalidade do método
+    return...;
+}
+
+Isso indica que ao utilizar o método uma exceção pode surgir, sendo resposabilidade do programador tratar essa exceção.
+
+Critérios:
+
+- Deve ser nomeado como verbo
+- Seguir o padrão camelCase
+
+# Escopo
+
+Declaração de variaveis externas e internas:
+
+Uma variável declarada dentro de um bloco de comando não poderá ser utilizada fora dele, porém, uma variavel declarada no escopo mais externo pode ser utilizada em qualquer bloco.
+
+
+
+
